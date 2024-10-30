@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerbang Logika</title>
+    <link rel="stylesheet" href="artikel.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Gerbang Logika</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#gates">Gerbang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Dunia Gerbang Logika</h1>
+            <p>Pahami dasar-dasar gerbang logika yang digunakan dalam elektronik digital dan komputer.</p>
+            <p>By Peter Adhiwibowo X RPL 3</p>
+            <a href="#gates" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <!-- Gates Section -->
+    <section id="gates">
+        <h2>Jenis-jenis Gerbang Logika</h2>
+
+        <div class="gate">
+            <h3>Gerbang AND</h3>
+            <p>Gerbang AND menghasilkan output 1 jika kedua inputnya adalah 1. Jika salah satu atau kedua inputnya adalah 0, maka outputnya adalah 0.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang OR</h3>
+            <p>Gerbang OR menghasilkan output 1 jika salah satu atau kedua inputnya adalah 1. Jika kedua inputnya adalah 0, maka outputnya adalah 0.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang NOT</h3>
+            <p>Gerbang NOT menghasilkan output yang berlawanan dengan inputnya. Jika inputnya adalah 1, maka outputnya adalah 0, dan sebaliknya.</p>
+            <table>
+                <tr>
+                    <th>Input</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang NAND</h3>
+            <p>Gerbang NAND adalah kebalikan dari gerbang AND. Ia menghasilkan output 0 hanya jika kedua inputnya adalah 1. Jika salah satu atau kedua inputnya adalah 0, maka outputnya adalah 1.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang NOR</h3>
+            <p>Gerbang NOR adalah kebalikan dari gerbang OR. Ia menghasilkan output 0 jika salah satu atau kedua inputnya adalah 1. Jika kedua inputnya adalah 0, maka outputnya adalah 1.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang XOR</h3>
+            <p>Gerbang XOR menghasilkan output 1 jika hanya satu dari inputnya adalah 1. Jika kedua inputnya adalah 0 atau kedua inputnya adalah 1, maka outputnya adalah 0.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gate">
+            <h3>Gerbang XNOR</h3>
+            <p>Gerbang XNOR adalah kebalikan dari gerbang XOR. Ia menghasilkan output 1 jika kedua inputnya sama (keduanya 0 atau keduanya 1). Jika salah satu inputnya berbeda, maka outputnya adalah 0.</p>
+            <table>
+                <tr>
+                    <th>Input A</th>
+                    <th>Input B</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Jika Anda memiliki pertanyaan, hubungi saya di <a href="mailto:contact@gerbanglogika.com">contant@peteradhiwibowo2112@gmail.com</a></p>
+        <p>&copy; 2024 Gerbang Logika. Hak cipta dilindungi.</p>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

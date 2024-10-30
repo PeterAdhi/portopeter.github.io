@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="porto.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="profil.jpg" alt="">
+            <h3 class="name">Peter Adhiwibowo</h3>
+            <p class="post">SMK Plus Pelita Nusantara</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portofolio">portofolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="menu" class="fas fa-bara"></div>
+    <section class="home" id="home">
+        <h3>HI THERE!</h3>
+        <h1>I'M <span>Peter Adhiwibowo</span></h1>
+        <p>I am student at SMK Plus Pelita Nusantara majoring in Software Engineering who has an interest in software development and programming skills.
+        During my studies, I have learned the basics of programming. Progam improvement, and how to solve promblems in program.
+        I also enjoy learning new things and working in a team.</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name : </span> Peter Adhiwibowo</h3>
+                <h3><span>Age : </span> 16 </h3>
+                <h3><span>Residence : </span>Taman Kenari Jagorawi </h3>
+                <h3><span>Post : </span> Front End Developer </h3>
+                <h3><span>Languange : </span> English & Indonesia</h3>
+                <a href="Peter Adhiwibowo CV.pdf"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>2</span>
+                    <h3>Years of Experience</h3>
+                </div>
+                <div class="box">
+                    <span>6</span>
+                    <h3>Project Completed</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h1 class="heading">My <span>Education</span></h1>
+        <div class="box-containe">
+            <div class="box">
+                <i class="fas fa-junior-high-school"></i>
+                <span>2014-2020</span>
+                <h3>SD Mardi Waluya Cibinong</h3>
+            </div>
+            <div class="box">
+                <i class="fas fa-junior-high-school"></i>
+                <span>2020-2023</span>
+                <h3>SMP Mardi Waluya Cibinong</h3>
+            </div>
+            <div class="box">
+                <i class="fas fa-vacational-high-school"></i>
+                <span>2023-Now</span>
+                <h3>SMK Plus Pelita Nusantara</h3>
+                <p>Software Engineering</p>
+            </div>
+        </div>
+    </section>
+    <section class="portofolio" id="portofolio">
+        <h1 class="heading">My <span>Project</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="Projek 1/index.html">
+                    <img src="projek1.png" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="porto.html">
+                    <img src="projek2.png" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="Projek 3/artikel.html">
+                    <img src="projek3.png" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <img src="projek_laravel.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact Info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"> peteradhi21@gmail.com </i></h3>
+                    <h3><i class="fas fa-phone"> +62 812-9501-8112 </i></h3>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="project" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

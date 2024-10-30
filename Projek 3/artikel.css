@@ -1,0 +1,215 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General body style */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 1rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+header .nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Hero section styles */
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .hero-content {
+    max-width: 700px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background: #555;
+}
+
+/* Gates section styles */
+#gates {
+    background: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#gates h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#gates .gate {
+    margin-bottom: 2rem;
+}
+
+#gates .gate h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#gates .gate img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#gates table {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+#gates table, #gates th, #gates td {
+    border: 1px solid #ddd;
+}
+
+#gates th, #gates td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .social-links {
+    margin-top: 1rem;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .nav-links li {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    #gates h2 {
+        font-size: 1.5rem;
+    }
+
+    #gates .gate h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        font-size: 1.25rem;
+    }
+
+    #hero h1 {
+        font-size: 1.75rem;
+    }
+
+    #hero p {
+        font-size: 0.875rem;
+    }
+
+    #hero .btn {
+        padding: 0.5rem 1rem;
+    }
+
+    #gates h2 {
+        font-size: 1.25rem;
+    }
+
+    #gates .gate h3 {
+        font-size: 1rem;
+    }
+}
